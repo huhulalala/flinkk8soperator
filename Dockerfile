@@ -31,5 +31,5 @@ ENV GO111MODULE="on"
 RUN mkdir -p ${GOPATH}/src/github.com/lyft/flinkk8soperator
 WORKDIR ${GOPATH}/src/github.com/lyft/flinkk8soperator
 COPY . ./
-RUN go mod init github.com/GoogleCloudPlatform/spark-on-k8s-operator
+RUN go mod init github.com/lyft/flinkk8soperator
 RUN go build
