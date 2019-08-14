@@ -32,4 +32,4 @@ RUN mkdir -p ${GOPATH}/src/github.com/lyft/flinkk8soperator
 WORKDIR ${GOPATH}/src/github.com/lyft/flinkk8soperator
 COPY . ./
 RUN go mod init github.com/lyft/flinkk8soperator
-RUN go build
+#RUN go build
